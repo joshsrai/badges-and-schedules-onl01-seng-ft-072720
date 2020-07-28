@@ -3,11 +3,11 @@ def badge_maker(name)
    "Hello, my name is #{name}."
 end
 
-def batch_badge_creator
+def batch_badge_creator["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   
 end
 
-let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
+let(:attendees) {}
   let(:badges) {[
                   "Hello, my name is Edsger.",
                   "Hello, my name is Ada.",
