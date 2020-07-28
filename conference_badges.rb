@@ -4,7 +4,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  counter = 1
-  batch_badge_creator.each do |speakers| puts "Hello, my name is #{speakers}."}
+  batch_badge_creator.map each do |speakers| puts "Hello, my name is #{speakers}."}
   counter += 1
 end
