@@ -4,5 +4,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator = (speakers)
-  batch_badge_creator.map {|speakers| badge_maker(name)}
+  speakers.map {|name| badge_maker(name)}
 end
