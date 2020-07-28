@@ -9,5 +9,4 @@ end
 
 def assign_rooms(speakers)
   speakers.map.with_index {|name, index| "Hello, #{name}! You'll be assigned to room #{index + 1}!" }
-  
 end
